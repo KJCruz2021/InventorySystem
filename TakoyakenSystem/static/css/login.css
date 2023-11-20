@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url('backgorund.jpg');
+    background-image: url('../images/backgorund.jpg');
 }
 
 /*------------ Login container ------------*/
