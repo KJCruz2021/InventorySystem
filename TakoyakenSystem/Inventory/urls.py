@@ -1,3 +1,4 @@
+
 from django.urls import path
 from . import views
 
@@ -5,6 +6,7 @@ from . import views
 #nakaconnect to sa views.py (kung ano mga function don, dapat nakalagay din dto)
 
 urlpatterns = {
-    path('', views.login, name="login"),
-    path('signup/', views.signup, name='signup')
+    path('', views.login, name='login'),  
+    path('signup/', views.signup, name='signup'),
+     path('login/', views.login, name='login'),
 }
