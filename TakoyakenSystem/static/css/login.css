@@ -3,6 +3,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-image: url('../images/backgorund.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /*------------ Login container ------------*/
