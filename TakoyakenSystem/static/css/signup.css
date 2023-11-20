@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40400%3B500&display=swap%27%29%3B);
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../images/backgorund.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*------------ Login container ------------*/
+.box-area{
+    width: 930px;
+}
+
