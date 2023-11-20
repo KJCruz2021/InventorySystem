@@ -11,6 +11,7 @@ body{
 /*------------ Login container ------------*/
 .box-area{
     width: 930px;
+    height: 450px;
 }
 /*------------ Right box ------------*/
 .right-box{
