@@ -6,7 +6,6 @@ from . import views
 #nakaconnect to sa views.py (kung ano mga function don, dapat nakalagay din dto)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', views.login, name='login'),  
     path('signup/', views.signup, name='signup'),
     path('login/', views.login, name='login'),
