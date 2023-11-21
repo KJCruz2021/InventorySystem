@@ -9,3 +9,12 @@ def login(request):
 
 def signup(request):
     return render(request, 'signup.html', {})
+
+def inventory(request):
+    return render(request, 'inventory.html', {})
+
+def customer(request):
+    return render(request, 'customer.html', {})
+
+def history(request):
+    return render(request, 'history.html', {})
