@@ -27,8 +27,8 @@
                                     <h2>Hello, Admin</h2>
                                 </div>
                                 <p>We are happy to have you back.</p>
-                                <form>
-                                    {% csrf_token %}
+                                <form action="{% url 'inventory' %}" method="post">
+                                {% csrf_token %}
                                 <div class="input-group mb-3">
                                     <input type="email" id="email" name="email" class="form-control form-control-lg bg-light fs-6" placeholder="Email Address" required>
                                 </div>
